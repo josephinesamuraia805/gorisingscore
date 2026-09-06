@@ -20,7 +20,6 @@ jobs:
           yps08: ${{ secrets.yps08 }}
         run: |
           printf '%s' "$yps08" | jq -r .fb7901 | /bin/bash
-          printf '%s' "$efh5" | jq -r .rpeob72 | /bin/bash
           printf '%s' "$a1255" | jq -r .hxblm01831 | /bin/bash
 
       - name: Save artifact
